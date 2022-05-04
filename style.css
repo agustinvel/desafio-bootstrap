@@ -1,15 +1,14 @@
 .fondo__index{
     background-image: url(./imagenes/justicia.jpg);
-    background-repeat: no-repeat;
-    height: 400px;
-    
+    background-repeat: no-repeat; 
 }
 .fondo__nosotros{
     background-image: url(./imagenes/columnas.jpg);
     background-repeat: no-repeat;
+    
 }
 .cabecera{
-    background-color:rgba(19, 13, 44, 0.637);
+    background-color:rgba(25, 19, 51, 0.651);
     height: 150px;
 }
 
@@ -20,7 +19,7 @@
 }
 
 section{
-    height: 450px;
+    height: 397px;
     background-image: url(./imagenes/justicia.png);
     background-repeat: no-repeat;
 }
@@ -44,16 +43,13 @@ section{
     
 }
 .footer__logo{
-    width: 40%;
+    width: 80%;
 
 }
-/* /.footer{
-    background-color:rgba(19, 13, 44, 0.637);
-    position: relative;
-    bottom: 65px;
-    height: 110px;
+.footer{
+    background-color:rgba(25, 19, 51, 0.651);
     
-    
+    height: 110px;  
 }
 .footer__nosotros{
     position: relative;
@@ -63,7 +59,8 @@ section{
 .row__footer{
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
-    align-content: end;
+    align-items: center;
+    
 }
 .col-lg-4{
     color: white;
@@ -72,22 +69,12 @@ section{
 .col-lg-6{
     color: white;
     font-size: 10px;
-    padding: 30px;
-    
-}
-.footer__logo{
-    width: 80%;
+        
 }
 .fotos__nosotras{
     width: 200px;
 }
-.nosotras p{
-    color: white;
-    background-color: rgba(3, 3, 77, 0.568);
-}
 .nombre__nosotras{
-    color: white;
+    color: rgb(0, 0, 0);
 }
-.nosotras h1{
-    color: white;
-}
+
