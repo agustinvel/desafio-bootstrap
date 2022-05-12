@@ -1,1 +1,14 @@
 $color-principal: rgba(25, 19, 51, 0.651);
+$flex-column: column;
+
+$tamanio-total: 50%;
+$tamanio-medio: $tamanio-total/2;
+$tamanio-cuarto: $tamanio-medio/2;
+
+/* MAPS */
+$tamanio-tipografia:(
+    titulos: 24px,
+    subtitulos: 20px
+    parrafos: 14px,
+    letra-chica: 12px,
+)

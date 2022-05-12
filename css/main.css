@@ -5,3 +5,10 @@
     font-size: 18px;
     font-weight: bold;
     color: white; }
+    .cabecera .navbar .navbar-light .navbar-nav .nav-link {
+      color: white; }
+    .cabecera .navbar .navbar-light .navbar-nav .nav-link.active, .cabecera .navbar .navbar-light .navbar-nav .show > .nav-link {
+      color: rgba(255, 255, 255, 0.733); }
+    .cabecera .navbar .nav-item a {
+      font-size: 18px;
+      font-weight: bold; }
