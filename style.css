@@ -56,18 +56,14 @@
     padding: 10px;
 }
 .footer{
-    background-color:rgba(25, 19, 51, 0.651); 
-}
-.footer__nosotros{
     bottom: 0px;
-    background-color:rgba(19, 13, 44, 0.637);
+    background-color:rgba(25, 19, 51, 0.651); 
 }
 .row__footer{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .footer__contactos{
     display: flex;
     color: white;
@@ -80,17 +76,52 @@
     color: white;
 }
 .fotos__nosotras{
-    width: 200px;
-    height: 200px;
+    width: 25vh;
+    height: 25vh;
     
 }
 .div__nosotras{
     background-color: white;
     margin: 10px;
     padding: 15px;
+    height: 360px;
 }
+.align-items-start h1{
+    color: white;
+    text-align: center;
+}
+.div__servicios{
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    height: 200px;
+}
+.especialidades{
+    margin-bottom: 2rem;
+    min-height: 53vh;  
+}
+.div__especialidades{
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    height: 250px;
+}
+.contactanos{
+    margin-bottom: 1rem;
+    min-height: 53vh;
+}
+.contactanos h1{
+    text-align: center;
+    color: white;
+}
+.th{
+    width: 60vh;
+}
+
 @media only screen and (max-width:750px){   
     .footer__logo{
         width: 40%;
     }
+    
 }
+
